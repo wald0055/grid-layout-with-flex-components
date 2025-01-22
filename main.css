@@ -1,3 +1,4 @@
+/*given css*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
@@ -26,8 +27,9 @@ body {
     font-size: 4rem;
   }
 
+  /*my css*/
   body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -39,14 +41,14 @@ body {
     background-color: #ffffff;
   }
   
-  .siteheader h1 {
+  .siteheader h1 { /*meaning of emojis*/
     margin: 0;
     font-size: 2rem;
     color: black;
     text-align: left;
   }
   
-  .emojis {
+  .emojis { /*puts emojis in 2x2 grid*/
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
